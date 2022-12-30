@@ -3,7 +3,7 @@ import "./Projects.css";
 import { themeContext } from "../../Context";
 // import dot from "../../img/dotford.png";
 import { Row, Col, Container } from "react-bootstrap";
-import CardList from "../../api/data";
+import { articles } from "../../api/data";
 
 const Project = () => {
   const theme = useContext(themeContext);
@@ -17,7 +17,7 @@ const Project = () => {
       <div className="conatier_portfolio">
         <Container>
           <Row sm={1} md={2} lg={3}>
-            {CardList.map((card) => (
+            {articles.map((card) => (
               <Col>
                 <article className="portfolio_item">
                   <div className="portfolio_item-image">
