@@ -6,7 +6,6 @@ import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
-import Resume from "./resume.pdf";
 
 const Services = () => {
   // context
@@ -31,9 +30,7 @@ const Services = () => {
           <br />
           ispum is simpley dummy text of printing
         </spane>
-        {/* <a href={Resume} download>
-          <button className="button s-button">Download CV</button>
-        </a> */}
+
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
       </div>
       {/* right */}
@@ -71,11 +68,12 @@ const Services = () => {
           <Card
             emoji={Humble}
             heading={"UI/UX"}
-            detail={"Lorem ispum dummy text are usually use in section"}
+            detail={
+              "Lorem ispum dummy text are usually use in section where we need some random text"
+            }
             color="rgba(252, 166, 31, 0.45)"
           />
         </motion.div>
-
         <div
           className="blur s-blur2"
           style={{ background: "var(--purple)" }}

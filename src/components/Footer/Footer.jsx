@@ -6,6 +6,10 @@ import Facebook from "@iconscout/react-unicons/icons/uil-facebook";
 import Gitub from "@iconscout/react-unicons/icons/uil-github";
 
 const Footer = () => {
+  const clickHandler = (e) => {
+    e.stopPropagation();
+    console.log("button");
+  };
   return (
     <div className="footer">
       <img src={Wave} alt="" style={{ width: "100%" }} />
@@ -15,7 +19,9 @@ const Footer = () => {
           <Insta color="white" size={"3rem"} />
           <Facebook color="white" size={"3rem"} />
           <a href="/https://github.com/plancklabs">
-            <Gitub color="white" size={"3rem"} />
+            <button onClick={clickHandler}>
+              <Gitub color="white" size={"3rem"} />
+            </button>
           </a>
         </div>
       </div>

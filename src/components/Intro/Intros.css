@@ -54,7 +54,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* animation: rotatingR 20s linear infinite; */
+  animation: rotatingR 20s linear infinite;
 }
 
 @keyframes rotatingR {
@@ -71,7 +71,7 @@
 
 .w-mainCircle > * {
   position: absolute;
-  /* animation: rotatingL 20s linear infinite; */
+  animation: rotatingL 20s linear infinite;
 }
 @keyframes rotatingL {
   0% {
@@ -92,10 +92,10 @@
   left: -3rem;
   top: 5rem;
 }
-.w-mainCircle > :nth-child(3) {
-  /* left: 6rem;
-  top: 5rem; */
-}
+/* .w-mainCircle > :nth-child(3) {
+  left: 6rem;
+  top: 5rem;
+} */
 .w-mainCircle > :nth-child(4) {
   left: 15rem;
   top: 5rem;
@@ -153,7 +153,7 @@
   .w-right {
     display: flex;
     align-items: flex-start;
-    justify-content: start;
+    justify-content: flex-start;
     transform: scale(0.7);
   }
   .w-mainCircle {
