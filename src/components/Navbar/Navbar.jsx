@@ -13,7 +13,7 @@ const navbar = () => {
       {/* right */}
       <div className="n-right">
         <div className="n-list">
-          <ul style={{ listStyleType: "none" }}>
+          <ul style={{ listStyleType: "none", textDecoration: "none" }}>
             <li>
               <Link activeClass="active" to="Navbar" spy={true} smooth={true}>
                 Home
