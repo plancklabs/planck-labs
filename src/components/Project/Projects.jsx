@@ -28,17 +28,18 @@ const Project = () => {
                   </h6>
                   <div className="portfolio_item-cta">
                     <a
-                      href="/https://github.com/plancklabs/Dotdummies"
+                      href="https://github.com/plancklabs/Dotdummies"
                       className="btn"
-                      ß
                       target="_blank"
+                      rel="noreferrer"
                     >
                       Github
                     </a>
                     <a
-                      href="#https://www.dotfordummies.com/"
+                      href="https://www.dotfordummies.com/"
                       className="btn1"
                       target="_blank"
+                      rel="noreferrer"
                     >
                       Live Demo
                     </a>
