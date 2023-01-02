@@ -7,13 +7,13 @@ const navbar = () => {
     <div className="n-wrapper" id="Navbar">
       {/* left */}
       <div className="n-left">
-        <div className="n-name">Andrew</div>
+        <div className="n-name">PlackLabs</div>
         <Toggle />
       </div>
       {/* right */}
       <div className="n-right">
         <div className="n-list">
-          <ul style={{ listStyleType: "none", textDecoration: "none" }}>
+          <ul style={{ listStyleType: "none" }}>
             <li>
               <Link activeClass="active" to="Navbar" spy={true} smooth={true}>
                 Home
@@ -21,7 +21,7 @@ const navbar = () => {
             </li>
             <li>
               <Link to="services" spy={true} smooth={true}>
-                Serivces
+                Services
               </Link>
             </li>
             <li>
@@ -32,11 +32,6 @@ const navbar = () => {
             <li>
               <Link to="portfolio" spy={true} smooth={true}>
                 Projects
-              </Link>
-            </li>
-            <li>
-              <Link to="testimonial" spy={true} smooth={true}>
-                Testimonial
               </Link>
             </li>
           </ul>

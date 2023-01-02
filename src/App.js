@@ -3,7 +3,6 @@ import Intro from "./components/Intro/Intro";
 import Services from "./components/Services/Services";
 import "./App.css";
 import Experience from "./components/Experience/Experience";
-import Testimonial from "./components/Testimonials/Testimonial";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import { useContext } from "react";
@@ -26,7 +25,6 @@ function App() {
       <Services />
       <Experience />
       <Projects />
-      <Testimonial />
       <Contact />
       <Footer />
       </div>

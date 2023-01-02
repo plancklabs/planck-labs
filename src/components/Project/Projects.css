@@ -59,12 +59,12 @@
 }
 
 .portfolio_item-cta {
-  gap: 2rem;
   margin-bottom: 1rem;
 }
 .portfolio_item-cta .btn {
   border: 2px solid var(--orangeCard);
   border-radius: 34px;
+  gap: 20rem;
 }
 .portfolio_item-cta .btn1 {
   background: linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%);
