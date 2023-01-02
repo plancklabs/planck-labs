@@ -18,7 +18,7 @@ const Project = () => {
         <Container>
           <Row sm={1} md={2} lg={3}>
             {articles.map((card) => (
-              <Col>
+              <Col key={card.id}>
                 <article className="portfolio_item">
                   <div className="portfolio_item-image">
                     <img src={card.img} alt="dotfordummies" />

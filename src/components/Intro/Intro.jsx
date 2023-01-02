@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import "./Intros.css";
+import "./Intro.css";
 import kusama from "../../img/Kusama.png";
 import edg from "../../img/edg-logo.png";
 import astr from "../../img/astrlogo.png";
