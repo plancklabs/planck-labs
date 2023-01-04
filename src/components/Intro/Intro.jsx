@@ -24,8 +24,8 @@ const Intro = () => {
             Building project for
           </span>
           <span>Polkadot ecosystem</span>
-          <Link to="contact" smooth={true} spy={true}>
-            <button className="button s-button">Read More</button>
+          <Link to="contact" spy={true} smooth={true}>
+            <button className="button n-button">Read More</button>
           </Link>
           <div
             className="blur s-blur1"

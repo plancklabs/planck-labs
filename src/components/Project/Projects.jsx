@@ -1,7 +1,6 @@
 import React, { useContext } from "react";
 import "./Projects.css";
 import { themeContext } from "../../Context";
-// import dot from "../../img/dotford.png";
 import { Row, Col, Container } from "react-bootstrap";
 import { articles } from "../../api/data";
 

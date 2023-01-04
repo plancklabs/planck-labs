@@ -1,6 +1,6 @@
 .card {
-  width: 12rem;
-  height: 17rem;
+  width: 15rem;
+  /* height: 18rem; */
   position: absolute;
   display: flex;
   flex-direction: column;
@@ -11,7 +11,7 @@
   border: 7px solid var(--orangeCard);
   box-shadow: var(--boxShadow);
   border-radius: 20px;
-  padding: 0px 26px 2rem 26px;
+  /* padding: 0px 26px 2rem 26px; */
 }
 .card span:nth-of-type(2) {
   color: var(--gray);
