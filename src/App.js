@@ -8,6 +8,7 @@ import Footer from "./components/Footer/Footer";
 import { useContext } from "react";
 import { themeContext } from "./Context";
 import Projects from "./components/Project/Projects";
+import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 function App() {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
@@ -21,6 +22,7 @@ function App() {
     >
       <div className="container">
       <Navbar />
+      <ScrollToTop />
       <Intro />
       <Services />
       <Experience />

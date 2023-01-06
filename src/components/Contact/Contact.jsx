@@ -45,7 +45,7 @@ const Contact = () => {
       </div>
       {/* right side form */}
       <div className="c-right">
-        <form ref={form} onSubmit={sendEmail}>
+        <form ref={form} onSubmit={"tuntun.work01@gmail.com"}>
           <input
             type="text"
             name="user_name"
@@ -61,10 +61,6 @@ const Contact = () => {
           <textarea name="message" className="user" placeholder="Message" />
           <input type="submit" value="Send" className="button" />
           <span>{done && "Thanks for Contacting me"}</span>
-          <div
-            className="blur c-blur1"
-            style={{ background: "var(--purple)" }}
-          ></div>
         </form>
       </div>
     </div>
